@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e47a8e12-a643-4ea2-9dbc-5d5529160d55" name="Default Changelist" comment="复制">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbtransaction.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/src/main/java/com/luban/server/lbtransaction/annotation/Lbtransactional.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/src/main/java/com/luban/server/lbtransaction/aspect/LbDataSourceAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/src/main/java/com/luban/server/lbtransaction/aspect/LbTransactionAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/src/main/java/com/luban/server/lbtransaction/connection/LbConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/src/main/java/com/luban/server/lbtransaction/intercept/RequestInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/src/main/java/com/luban/server/lbtransaction/intercept/WebAppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/src/main/java/com/luban/server/lbtransaction/netty/NettyClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/src/main/java/com/luban/server/lbtransaction/netty/NettyClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/src/main/java/com/luban/server/lbtransaction/transactional/LbTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/src/main/java/com/luban/server/lbtransaction/transactional/LbTransactionManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/src/main/java/com/luban/server/lbtransaction/transactional/TransactionType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/src/main/java/com/luban/server/lbtransaction/util/HttpClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/src/main/java/com/luban/server/lbtransaction/util/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server1/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server1/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/target/classes/com/luban/server/DemoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/server1/target/classes/com/luban/server/DemoDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/target/classes/com/luban/server/Server1Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/server1/target/classes/com/luban/server/Server1Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/target/classes/com/luban/server/lbtransaction/annotation/Lbtransactional.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/target/classes/com/luban/server/lbtransaction/aspect/LbDataSourceAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/target/classes/com/luban/server/lbtransaction/aspect/LbTransactionAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/target/classes/com/luban/server/lbtransaction/connection/LbConnection$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/target/classes/com/luban/server/lbtransaction/connection/LbConnection$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/target/classes/com/luban/server/lbtransaction/connection/LbConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/target/classes/com/luban/server/lbtransaction/intercept/RequestInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/target/classes/com/luban/server/lbtransaction/intercept/WebAppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/target/classes/com/luban/server/lbtransaction/netty/NettyClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/target/classes/com/luban/server/lbtransaction/netty/NettyClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/target/classes/com/luban/server/lbtransaction/netty/NettyClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/target/classes/com/luban/server/lbtransaction/transactional/LbTransaction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/target/classes/com/luban/server/lbtransaction/transactional/LbTransactionManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/target/classes/com/luban/server/lbtransaction/transactional/TransactionType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/target/classes/com/luban/server/lbtransaction/util/HttpClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/target/classes/com/luban/server/lbtransaction/util/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/src/main/java/com/luban/server/lbtransaction/annotation/Lbtransactional.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/src/main/java/com/luban/server/lbtransaction/aspect/LbDataSourceAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/src/main/java/com/luban/server/lbtransaction/aspect/LbTransactionAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/src/main/java/com/luban/server/lbtransaction/connection/LbConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/src/main/java/com/luban/server/lbtransaction/intercept/RequestInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/src/main/java/com/luban/server/lbtransaction/intercept/WebAppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/src/main/java/com/luban/server/lbtransaction/netty/NettyClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/src/main/java/com/luban/server/lbtransaction/netty/NettyClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/src/main/java/com/luban/server/lbtransaction/transactional/LbTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/src/main/java/com/luban/server/lbtransaction/transactional/LbTransactionManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/src/main/java/com/luban/server/lbtransaction/transactional/TransactionType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/src/main/java/com/luban/server/lbtransaction/util/HttpClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/src/main/java/com/luban/server/lbtransaction/util/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server2/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server2/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/target/classes/com/luban/server/DemoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/server2/target/classes/com/luban/server/DemoDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/target/classes/com/luban/server/Server2Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/server2/target/classes/com/luban/server/Server2Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/target/classes/com/luban/server/lbtransaction/annotation/Lbtransactional.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/target/classes/com/luban/server/lbtransaction/aspect/LbDataSourceAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/target/classes/com/luban/server/lbtransaction/aspect/LbTransactionAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/target/classes/com/luban/server/lbtransaction/connection/LbConnection$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/target/classes/com/luban/server/lbtransaction/connection/LbConnection$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/target/classes/com/luban/server/lbtransaction/connection/LbConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/target/classes/com/luban/server/lbtransaction/intercept/RequestInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/target/classes/com/luban/server/lbtransaction/intercept/WebAppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/target/classes/com/luban/server/lbtransaction/netty/NettyClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/target/classes/com/luban/server/lbtransaction/netty/NettyClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/target/classes/com/luban/server/lbtransaction/netty/NettyClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/target/classes/com/luban/server/lbtransaction/transactional/LbTransaction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/target/classes/com/luban/server/lbtransaction/transactional/LbTransactionManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/target/classes/com/luban/server/lbtransaction/transactional/TransactionType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/target/classes/com/luban/server/lbtransaction/util/HttpClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2/target/classes/com/luban/server/lbtransaction/util/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/txmanager/src/main/java/NettyServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/txmanager/src/main/java/NettyServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/txmanager/target/classes/NettyServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/txmanager/target/classes/NettyServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/txmanager/target/classes/NettyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/txmanager/target/classes/NettyServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/txmanager/target/classes/NettyServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/txmanager/target/classes/NettyServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/txmanager/target/classes/TxManagerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/txmanager/target/classes/TxManagerMain.class" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="lbtransaction" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>commit</find>
+      <find>commit(</find>
+      <find>rollback</find>
+      <find>current</find>
+      <find>currentGroupId</find>
+      <find>begin</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/server1/src/main/java</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\周瑜\IdeaProjects\lbtransaction\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SMuzuVzoZ837YsSON0vExFpyH3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="DemoService&#9;PSI&#9;JAVA://com.luban.server.DemoService" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545824165549" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lbtransactionstudy" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.luban.server.lbtransaction.transactional" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.luban.server.lbtransaction.intercept" />
+      <recent name="com.luban.server" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lbglobaltransaction/src/main/java" />
+      <recent name="$PROJECT_DIR$/lbtransactional/src/main/java/com/luban/server" />
+      <recent name="$PROJECT_DIR$/server2/src/main/java/com/luban/server" />
+      <recent name="$PROJECT_DIR$/server1/src/main/java/com/luban/server/lbtransaction/netty" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Server2Application">
+    <configuration name="TxManagerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TxManagerMain" />
+      <module name="txmanager" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="server1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luban.server.lbtransaction.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luban.server.Server1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="server2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luban.server.lbtransaction.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luban.server.Server2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TxManagerMain" />
+      <item itemvalue="Spring Boot.Server1Application" />
+      <item itemvalue="Spring Boot.Server2Application" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Server2Application" />
+        <item itemvalue="Spring Boot.Server1Application" />
+        <item itemvalue="Application.TxManagerMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.2124317" />
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e47a8e12-a643-4ea2-9dbc-5d5529160d55" name="Default Changelist" comment="" />
+      <created>1541655568908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541655568908</updated>
+      <workItem from="1541655572359" duration="20228000" />
+      <workItem from="1541739664290" duration="7000" />
+      <workItem from="1542090629679" duration="1366000" />
+      <workItem from="1542092009809" duration="12245000" />
+      <workItem from="1542172959821" duration="104000" />
+      <workItem from="1542347623161" duration="2528000" />
+      <workItem from="1542864862137" duration="2706000" />
+      <workItem from="1542884652300" duration="8177000" />
+      <workItem from="1543905360608" duration="12583000" />
+      <workItem from="1545807882371" duration="15000" />
+      <workItem from="1545808028586" duration="7196000" />
+      <workItem from="1562765810069" duration="76000" />
+      <workItem from="1562765916013" duration="17567000" />
+      <workItem from="1563431653223" duration="628000" />
+      <workItem from="1564484745619" duration="5590000" />
+      <workItem from="1565941651056" duration="3565000" />
+      <workItem from="1567063207640" duration="6625000" />
+      <workItem from="1568184848611" duration="42000" />
+      <workItem from="1568184899846" duration="3679000" />
+      <workItem from="1568789296604" duration="1062000" />
+      <workItem from="1571386054132" duration="2384000" />
+      <workItem from="1571486634788" duration="4834000" />
+      <workItem from="1571546595491" duration="35000" />
+    </task>
+    <task id="LOCAL-00001" summary="复制">
+      <created>1542091245827</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542091245827</updated>
+    </task>
+    <task id="LOCAL-00002" summary="复制">
+      <created>1543914604613</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543914604613</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="复制" />
+    <option name="LAST_COMMIT_MESSAGE" value="复制" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>transactionTypeMap.values()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>transactionTypeMap.values().contains(&quot;rollback&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+</project>
